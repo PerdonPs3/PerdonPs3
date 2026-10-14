@@ -40,6 +40,12 @@ I'm interested in **software development**: understanding a problem, building so
 
 **Also used through coursework:** Java · C · SQL
 
+### Building, one commit at a time
+
+![Animated gold snake following my GitHub contributions](https://raw.githubusercontent.com/PerdonPs3/PerdonPs3/snake-animation/github-snake.svg)
+
+<sub>Generated from my contribution calendar with [snk](https://github.com/Platane/snk).</sub>
+
 ---
 
 <p align="center">
