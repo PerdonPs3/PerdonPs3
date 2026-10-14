@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Game Backlog — featured project</title>
+  <desc id="desc">A Flask and SQLite game tracker with ratings, reviews, status filters and 32 automated tests. The right side is a stylized illustration of the collection, not a screenshot.</desc>
+  <rect x="1" y="1" width="1198" height="358" rx="16" fill="#151b20" stroke="#665c43"/>
+  <path d="M36 34h28M36 34v28" fill="none" stroke="#c6a463"/>
+  <text x="65" y="59" font-family="Consolas, monospace" font-size="12" fill="#d4b579" letter-spacing="2">01 / FEATURED PROJECT</text>
+  <text x="64" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" fill="#f6f3e9" letter-spacing="-1">Game Backlog</text>
+  <text x="66" y="166" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#c2c5c7">Less scrolling. More playing.</text>
+  <text x="66" y="208" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#a7afb5">Track games, leave reviews, and own your collection.</text>
+  <g font-family="Consolas, monospace" font-size="12" fill="#d4b579">
+    <rect x="65" y="239" width="230" height="33" rx="5" fill="#242920" stroke="#504b39"/>
+    <text x="83" y="260">PYTHON / FLASK / SQLITE</text>
+    <rect x="307" y="239" width="134" height="33" rx="5" fill="#242920" stroke="#504b39"/>
+    <text x="323" y="260">32 TEST CASES</text>
+  </g>
+  <text x="66" y="315" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#f6f3e9">Explore the source code</text>
+  <path d="M246 310h25m-6-6 6 6-6 6" fill="none" stroke="#d4b579" stroke-width="1.5"/>
+  <g transform="translate(663 46)">
+    <rect width="478" height="266" rx="10" fill="#0e1318" stroke="#343e45"/>
+    <path d="M0 33h478" stroke="#343e45"/>
+    <circle cx="18" cy="17" r="3" fill="#a58b52"/>
+    <circle cx="30" cy="17" r="3" fill="#5b6268"/>
+    <circle cx="42" cy="17" r="3" fill="#5b6268"/>
+    <text x="455" y="21" text-anchor="end" fill="#79858f" font-family="Consolas, monospace" font-size="10">COLLECTION / ILLUSTRATION</text>
+    <text x="25" y="73" fill="#d4b579" font-family="Segoe UI, Arial, sans-serif" font-weight="700" font-size="20">Your next adventure.</text>
+    <rect x="25" y="91" width="428" height="63" rx="6" fill="#181f26" stroke="#303941"/>
+    <rect x="37" y="104" width="38" height="38" rx="4" fill="#2c3030"/>
+    <path d="m48 115 5 6-5 6m16-12-5 6 5 6" fill="none" stroke="#d4b579" stroke-width="1.5"/>
+    <text x="89" y="117" fill="#f6f3e9" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Portal 2</text>
+    <text x="89" y="138" fill="#8c9aa5" font-family="Segoe UI, Arial, sans-serif" font-size="12">PC / Completed</text>
+    <text x="434" y="128" text-anchor="end" fill="#d4b579" font-family="Consolas, monospace" font-size="13">9/10</text>
+    <rect x="25" y="165" width="428" height="63" rx="6" fill="#181f26" stroke="#303941"/>
+    <rect x="37" y="178" width="38" height="38" rx="4" fill="#2c3030"/>
+    <path d="m50 189 6-4 6 4v9l-6 5-6-5Z" fill="none" stroke="#d4b579" stroke-width="1.5"/>
+    <text x="89" y="191" fill="#f6f3e9" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">Hollow Knight</text>
+    <text x="89" y="212" fill="#8c9aa5" font-family="Segoe UI, Arial, sans-serif" font-size="12">PC / Backlog</text>
+    <text x="434" y="202" text-anchor="end" fill="#8c9aa5" font-family="Consolas, monospace" font-size="13">NEXT UP</text>
+    <path d="M25 245h428" stroke="#303941"/>
+  </g>
+</svg>
