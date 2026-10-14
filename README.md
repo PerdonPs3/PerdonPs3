@@ -1,35 +1,47 @@
-<div align="center">
+<p align="center">
+  <img src="./banner-neon.svg" width="100%" alt="Maximiliano Rodríguez Pavez — Computer Science student at PUCV, Chile. White typography and a glowing gold A on a dark background. Curiosity into code. Ideas into working software." />
+</p>
 
-  <img src="./banner.svg" alt="Maximiliano Banner" width="100%" />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=17&amp;duration=3200&amp;pause=1600&amp;color=C6A463&amp;center=true&amp;vCenter=true&amp;width=650&amp;height=35&amp;lines=Learning+by+building.;One+small+project.+One+step+forward." width="100%" alt="Learning by building. One small project. One step forward." />
+</p>
 
-  <br><br>
+### A little about me
 
-  <a href="https://github.com/PerdonPs3">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=1200&color=D4AF37&center=true&vCenter=true&width=600&lines=Learning+by+building.;Turning+ideas+into+working+software." alt="Typing SVG" />
-  </a>
+I'm **Maximiliano**, a Computer Science student at **Pontificia Universidad Católica de Valparaíso**, Chile, studying Ingeniería Civil Informática.
 
-</div>
+I'm interested in **software development**: understanding a problem, building something useful, and improving it through testing and iteration. Right now, I'm putting those foundations into practice with small, hands-on projects.
 
-I'm a Computer Science student at **Pontificia Universidad Católica de Valparaíso**, Chile.
+**Based in** Santiago / Valparaíso, Chile · **Currently building** Game Backlog
 
-I'm interested in **software development** and enjoy understanding how things work, solving problems, and putting what I learn into practice.
+### What I'm building
 
-### About me
+[![Game Backlog — a Python, Flask and SQLite game tracker with ratings, reviews, filters and 32 automated test cases. Stylized project illustration.](./game-backlog.svg)](https://github.com/PerdonPs3/game-backlog)
 
-- 🎓 Studying **Ingeniería Civil Informática** at PUCV.
-- 💻 Working with **Python, Java, C, and SQL** through academic projects.
-- 🌱 Building my foundations and exploring ideas for personal projects.
-- 📍 Based in Chile — Santiago / Valparaíso.
+**[Game Backlog →](https://github.com/PerdonPs3/game-backlog)** is a personal video game tracker with a server-rendered interface and local SQLite storage.
 
-### Technologies
+- Create, edit, delete, and filter games by status.
+- Add optional ratings and reviews, with server-side validation and CSRF-protected forms.
+- Check core behavior with **32 automated test cases**, each using a temporary database.
 
-<div align="left">
-  <img src="https://img.shields.io/badge/Python-D4AF37?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Java-D4AF37?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/C-D4AF37?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-  <img src="https://img.shields.io/badge/SQL-D4AF37?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
-</div>
+**Next:** collection search and a game catalog with covers. Steam integration and player progression are longer-term ideas, not current features.
+
+### My toolkit
+
+**Using in Game Backlog**
+
+![Python](https://img.shields.io/badge/Python-161C22?style=flat-square&logo=python&logoColor=D4B579)
+![Flask](https://img.shields.io/badge/Flask-161C22?style=flat-square&logo=flask&logoColor=D4B579)
+![SQLite](https://img.shields.io/badge/SQLite-161C22?style=flat-square&logo=sqlite&logoColor=D4B579)
+![HTML](https://img.shields.io/badge/HTML-161C22?style=flat-square&logo=html5&logoColor=D4B579)
+![CSS](https://img.shields.io/badge/CSS-161C22?style=flat-square&logo=css&logoColor=D4B579)
+![pytest](https://img.shields.io/badge/pytest-161C22?style=flat-square&logo=pytest&logoColor=D4B579)
+![Git](https://img.shields.io/badge/Git-161C22?style=flat-square&logo=git&logoColor=D4B579)
+
+**Also used through coursework:** Java · C · SQL
 
 ---
 
-<p align="center"><b>Thanks for stopping by!</b></p>
+<p align="center">
+  <sub>Small projects. Thoughtful decisions. Steady progress.</sub>
+</p>
