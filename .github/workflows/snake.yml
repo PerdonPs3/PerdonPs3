@@ -9,6 +9,8 @@ on:
       - main
     paths:
       - ".github/workflows/snake.yml"
+      - "scripts/frame-snake.cjs"
+      - "scripts/frame-snake.test.cjs"
 
 permissions:
   contents: write
@@ -25,14 +27,21 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
         with:
-          persist-credentials: false
+          ref: main
+          persist-credentials: true
 
       - name: Generate gold contribution snake
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg?palette=github-dark&color_snake=#F4D286&color_dots=#161C22,#55472D,#927440,#C6A463,#FFE5A5
+            dist/github-snake.svg?palette=github-dark&color_snake=#FFE5A5&color_dots=#18212D,#51432A,#917039,#C99D4B,#F4D286
+            dist/github-snake-light.svg?palette=github-light&color_snake=#946A1D&color_dots=#EEE9DC,#E5D7AF,#C7AA62,#AE8735,#805C19
+
+      - name: Verify and frame both animations
+        run: |
+          node --test scripts/frame-snake.test.cjs
+          node scripts/frame-snake.cjs
 
       - name: Publish animation to its own branch
         uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865 # v4.2.0
@@ -42,3 +51,12 @@ jobs:
           commit_message: "Update gold contribution snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Refresh README images without changing other files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- assets/github-snake.svg assets/github-snake-light.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Refresh contribution trail images"
+          git push origin HEAD:main

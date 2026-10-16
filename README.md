@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner-neon.svg" width="100%" alt="Maximiliano Rodríguez Pavez — Computer Science student at PUCV, Chile. White typography and a glowing gold A on a dark background. Curiosity into code. Ideas into working software." />
+  <img src="./banner-neon.svg" width="100%" alt="Maximiliano Rodríguez Pavez — Computer Science student at PUCV, Chile. White typography and Vestigium's glowing gold V on a dark background. Curiosity into code. Ideas into working software." />
 </p>
 
 <p align="center">
@@ -10,31 +10,45 @@
 
 I'm **Maximiliano**, a Computer Science student at **Pontificia Universidad Católica de Valparaíso**, Chile, studying Ingeniería Civil Informática.
 
-I'm interested in **software development**: understanding a problem, building something useful, and improving it through testing and iteration. Right now, I'm putting those foundations into practice with small, hands-on projects.
+I turn curiosity into small, useful projects — then improve them through **testing, thoughtful interfaces, and iteration**. Currently learning by building a gaming library I'd actually want to use.
 
-**Based in** Santiago / Valparaíso, Chile · **Currently building** Game Backlog
+**Based in** Santiago / Valparaíso, Chile · **Currently building** Vestigium
 
 ### What I'm building
 
-[![Game Backlog — a Python, Flask and SQLite game tracker with ratings, reviews, filters and 32 automated test cases. Stylized project illustration.](./game-backlog.svg)](https://github.com/PerdonPs3/game-backlog)
+[![Vestigium — a Python, Flask and SQLite gaming library with IGDB covers, personal lists, an adventure roulette and 372 automated tests. Stylized project illustration, not a screenshot.](./game-backlog.svg)](https://github.com/PerdonPs3/game-backlog)
 
-**[Game Backlog →](https://github.com/PerdonPs3/game-backlog)** is a personal video game tracker with a server-rendered interface and local SQLite storage.
+**[Vestigium →](https://github.com/PerdonPs3/game-backlog)** · *Every game leaves a mark.*
 
-- Create, edit, delete, and filter games by status.
-- Add optional ratings and reviews, with server-side validation and CSRF-protected forms.
-- Check core behavior with **32 automated test cases**, each using a temporary database.
+A personal gaming library built with **Python, Flask, SQLite, and JavaScript**. Formerly Game Backlog; the repository keeps its original name.
 
-**Next:** collection search and a game catalog with covers. Steam integration and player progression are longer-term ideas, not current features.
+- **Discover & organize** — real IGDB games and covers, personal lists, live filters, and card/shelf views.
+- **Track your journey** — reviews, ratings, play dates, Favorite/GOTY stickers, and collection progress.
+- **Find your next adventure** — a filtered Backlog roulette, with animated covers and optional sound.
+
+<details>
+<summary><strong>Under the hood · quality, design & what's next</strong></summary>
+
+- **Catalog validation:** autocomplete and platform choices checked against IGDB.
+- **Portable data:** JSON export/import backups, without overwriting existing entries.
+- **Visual identity:** an animated welcome screen, dark/gold and light/purple themes, and a reactive V emblem, with reduced-motion support.
+- **Quality:** the latest local test run passed **305 Python tests + 67 JavaScript tests**. Python tests use temporary databases; forms include server-side validation and CSRF protection.
+- **Next:** English/Spanish UI and accounts with private/public profiles, ownership checks, and persistent hosting before a public launch. Steam integration and player progression remain longer-term ideas.
+
+The app currently runs locally as a **single-user library**. Planned features above are not available yet.
+
+</details>
 
 ### My toolkit
 
-**Using in Game Backlog**
+**Using in Vestigium**
 
 ![Python](https://img.shields.io/badge/Python-161C22?style=flat-square&logo=python&logoColor=D4B579)
 ![Flask](https://img.shields.io/badge/Flask-161C22?style=flat-square&logo=flask&logoColor=D4B579)
 ![SQLite](https://img.shields.io/badge/SQLite-161C22?style=flat-square&logo=sqlite&logoColor=D4B579)
 ![HTML](https://img.shields.io/badge/HTML-161C22?style=flat-square&logo=html5&logoColor=D4B579)
 ![CSS](https://img.shields.io/badge/CSS-161C22?style=flat-square&logo=css&logoColor=D4B579)
+![JavaScript](https://img.shields.io/badge/JavaScript-161C22?style=flat-square&logo=javascript&logoColor=D4B579)
 ![pytest](https://img.shields.io/badge/pytest-161C22?style=flat-square&logo=pytest&logoColor=D4B579)
 ![Git](https://img.shields.io/badge/Git-161C22?style=flat-square&logo=git&logoColor=D4B579)
 
@@ -42,9 +56,13 @@ I'm interested in **software development**: understanding a problem, building so
 
 ### Building, one commit at a time
 
-![Animated gold snake following my GitHub contributions](https://raw.githubusercontent.com/PerdonPs3/PerdonPs3/snake-animation/github-snake.svg)
+Small steps add up. A little trail of what I've been building.
 
-<sub>Generated from my contribution calendar with [snk](https://github.com/Platane/snk).</sub>
+<p align="center">
+  <img src="./assets/github-snake.svg" width="100%" alt="Animated golden snake tracing my real GitHub contributions on a dark background, matching the profile banners." />
+</p>
+
+<p align="center"><sub>Real contributions · refreshed daily · powered by <a href="https://github.com/Platane/snk">snk</a></sub></p>
 
 ---
 

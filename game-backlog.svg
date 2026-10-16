@@ -1,17 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Game Backlog — featured project</title>
-  <desc id="desc">A Flask and SQLite game tracker with ratings, reviews, status filters and 32 automated tests. The right side is a stylized illustration of the collection, not a screenshot.</desc>
-  <rect x="1" y="1" width="1198" height="358" rx="16" fill="#151b20" stroke="#665c43"/>
+  <title id="title">Vestigium — featured project</title>
+  <desc id="desc">A Flask and SQLite gaming library with IGDB covers, personal lists, an adventure roulette, two themes, and 372 automated tests in the latest local run. The right side is a stylized illustration of the collection, not a screenshot.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c121b"/><stop offset="1" stop-color="#090c12"/></linearGradient>
+    <radialGradient id="aura"><stop stop-color="#e3b341" stop-opacity=".16"/><stop offset="1" stop-color="#e3b341" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#e3c887" opacity=".16"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="1198" height="358" rx="20" fill="url(#bg)" stroke="#4a412d"/>
+  <rect x="798" y="25" width="365" height="310" fill="url(#dots)"/>
+  <ellipse cx="985" cy="180" rx="205" ry="165" fill="url(#aura)"/>
   <path d="M36 34h28M36 34v28" fill="none" stroke="#c6a463"/>
   <text x="65" y="59" font-family="Consolas, monospace" font-size="12" fill="#d4b579" letter-spacing="2">01 / FEATURED PROJECT</text>
-  <text x="64" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" fill="#f6f3e9" letter-spacing="-1">Game Backlog</text>
-  <text x="66" y="166" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#c2c5c7">Less scrolling. More playing.</text>
-  <text x="66" y="208" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#a7afb5">Track games, leave reviews, and own your collection.</text>
+  <text x="64" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" fill="#f6f3e9" letter-spacing="-1">Vestigium</text>
+  <text x="66" y="166" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#c2c5c7">Every game leaves a mark.</text>
+  <text x="66" y="208" font-family="Segoe UI, Arial, sans-serif" font-size="17" fill="#a7afb5">Catalog covers. Personal lists. Your next adventure.</text>
   <g font-family="Consolas, monospace" font-size="12" fill="#d4b579">
     <rect x="65" y="239" width="230" height="33" rx="5" fill="#242920" stroke="#504b39"/>
     <text x="83" y="260">PYTHON / FLASK / SQLITE</text>
     <rect x="307" y="239" width="134" height="33" rx="5" fill="#242920" stroke="#504b39"/>
-    <text x="323" y="260">32 TEST CASES</text>
+    <text x="323" y="260">372 TESTS</text>
   </g>
   <text x="66" y="315" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#f6f3e9">Explore the source code</text>
   <path d="M246 310h25m-6-6 6 6-6 6" fill="none" stroke="#d4b579" stroke-width="1.5"/>
